@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;     //   200   400  600
+}
+
+.cont_base{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CONTAINER{
+        width: 900px;
+        padding: 10px 0px;
+        //background: rgb(212, 212, 212);
+        margin: auto;
+        display: grid;
+        gap: 1em;
+        grid-template-columns:repeat(12,1fr);
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas: "DESC    DESC   DESC    DESC    DESC   DESC   DESC    DESC   DESC   DESC    DESC   DESC  "
+                             "CUA1    CUA1   CUA1    CUA1    CUA1   CUA1   CUA1    CUA1   CUA1   CUA1    CUA1   CUA1"
+                             "CUA2    CUA2   CUA2    CUA2    CUA2   CUA2   CUA3    CUA3   CUA3   CUA3    CUA3   CUA3"
+                             "CUA4    CUA4   CUA4    CUA4    CUA4   CUA4   CUA4    CUA4   CUA4   CUA4    CUA4   CUA4";
+        .DESC{
+            //padding: 10px;
+            //background: rgb(141, 141, 141);
+            grid-area: DESC;
+        }
+        .CUA1{
+            padding: 10px;
+            //background: rgba(127, 255, 212, 0.363);
+            grid-area: CUA1;
+        }
+        .CUA2{
+            margin-top: -110px;
+            margin-left:-60px;
+            padding: 10px;
+            //background: rgba(160, 132, 9, 0.37);
+            grid-area: CUA2;
+        }
+        .CUA3{
+            margin-top: -110px;
+            margin-left: 60px;
+            padding: 10px;
+            //background: rgba(3, 27, 105, 0.404);
+            grid-area: CUA3;
+        }
+        .CUA4{
+            margin-top: -110px;
+            padding: 10px;
+            //background: rgba(21, 196, 30, 0.39);
+            grid-area: CUA4;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:20px) and (max-width:423px){
+     .cont_base{
+         //background: hotpink;
+         padding: 10px 0px;
+         height: auto;
+         .CONTAINER{
+            width: 85%;
+            padding: 10px 0px;
+            //background: rgb(199, 172, 172);
+            margin: auto;
+            display: grid;
+            //gap: 1em;
+            grid-template-columns:repeat(12,1fr);
+            grid-template-rows: repeat(5,auto);
+            grid-template-areas: "DESC    DESC   DESC    DESC    DESC   DESC   DESC    DESC   DESC   DESC    DESC   DESC  "
+                                 "CUA2    CUA2   CUA2    CUA2    CUA2   CUA2   CUA2    CUA2   CUA2   CUA2    CUA2   CUA2"
+                                 "CUA1    CUA1   CUA1    CUA1    CUA1   CUA1   CUA1    CUA1   CUA1   CUA1    CUA1   CUA1"
+                                 "CUA4    CUA4   CUA4    CUA4    CUA4   CUA4   CUA4    CUA4   CUA4   CUA4    CUA4   CUA4"
+                                 "CUA3    CUA3   CUA3    CUA3    CUA3   CUA3   CUA3    CUA3   CUA3   CUA3    CUA3   CUA3"
+                                ;
+                                 .DESC{
+                                    margin-top: 50px; 
+                                    //padding: 10px 0px;
+                                    //background: rgb(141, 141, 141);
+                                    grid-area: DESC;
+                                }
+                                .CUA1{
+                                    //padding: 10px 0px;
+                                    //background: rgba(127, 255, 212, 0.363);
+                                    grid-area: CUA1;
+                                }
+                                .CUA2{
+                                    margin-top: 0px;
+                                    margin-left:0px;
+                                    //padding: 10px 0px;
+                                    //background: rgba(160, 132, 9, 0.37);
+                                    grid-area: CUA2;
+                                }
+                                .CUA3{
+                                    margin-top:0px;
+                                    margin-left:0px;
+                                    //padding: 10px 0px;
+                                    //background: rgba(3, 27, 105, 0.404);
+                                    grid-area: CUA3;
+                                }
+                                .CUA4{
+                                    margin-top: 0px;
+                                    //padding: 10px 0px;
+                                    //background: rgba(21, 196, 30, 0.39);
+                                    grid-area: CUA4;
+                                }
+         }
+     }
+}

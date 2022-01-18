@@ -1,0 +1,282 @@
+@import "colors";
+
+.contDesc{
+    width: 350px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    .title{
+       font-size: 20px;
+       font-weight: 200;
+    }
+    .title2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .parrafo{
+        margin-top: 10px;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+
+
+.contCua1{
+    width: 250px;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(177, 177, 177, 0.562)  ;
+    border-radius: 5px;
+    .line1{
+        width: 100%;
+        height: 6px;
+        background:$color_pri;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .titlesss{
+         margin-left: 20px;   
+         font-weight: 600;
+    }
+    .parr{
+         //background: chartreuse;
+         margin-left: 20px;
+         font-weight: 200;
+    }
+    .picture{
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/icon-team-builder.svg);
+        background-size: 100% 100%;
+        position: absolute;
+        right: 15px ;
+        bottom: 15px;
+    }
+}
+
+
+.contCua2{
+    width: 250px;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(177, 177, 177, 0.562)  ;
+    border-radius: 5px;
+
+    .line2{
+        width: 100%;
+        height: 6px;
+        background:$color_sec;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .titlesss{
+        margin-left: 20px;   
+        font-weight: 600;
+   }
+   .parr{
+        //background: chartreuse;
+        margin-left: 20px;
+        font-weight: 200;
+   }
+   .picture{
+       width: 40px;
+       height: 40px;
+       background-image: url(../images/icon-supervisor.svg);
+       background-size: 100% 100%;
+       position: absolute;
+       right: 15px ;
+       bottom: 15px;
+   }
+   
+}
+
+
+.contCua3{
+    width: 250px;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(177, 177, 177, 0.562)  ;
+    border-radius: 5px;
+
+    .line3{
+        width: 100%;
+        height: 6px;
+        background: $color_cua;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .titlesss{
+        margin-left: 20px;   
+        font-weight: 600;
+   }
+   .parr{
+        //background: chartreuse;
+        margin-left: 20px;
+        font-weight: 200;
+   }
+   .picture{
+       width: 40px;
+       height: 40px;
+       background-image: url(../images/icon-calculator.svg);
+       background-size: 100% 100%;
+       position: absolute;
+       right: 15px ;
+       bottom: 15px;
+   }
+}
+
+
+.contCua4{
+    width: 250px;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(177, 177, 177, 0.562)  ;
+    border-radius: 5px;
+
+    .line4{
+        width: 100%;
+        height: 6px;
+        background: $color_ter;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .titlesss{
+        margin-left: 20px;   
+        font-weight: 600;
+   }
+   .parr{
+        //background: chartreuse;
+        margin-left: 20px;
+        font-weight: 200;
+   }
+   .picture{
+       width: 40px;
+       height: 40px;
+       background-image: url(../images/icon-karma.svg);
+       background-size: 100% 100%;
+       position: absolute;
+       right: 15px ;
+       bottom: 15px;
+   }
+}
+
+
+
+
+
+
+
+@media (min-width:20px) and (max-width:423px){
+    .contDesc{
+        width: 100%;
+        padding: 10px 0px;
+        line-height:30px;
+
+
+
+
+
+
+        .title{
+            letter-spacing:1px;
+            width: 100%;
+            margin: auto;
+
+
+           
+         
+        }
+        .title2{
+            width: 100%;
+            margin: auto;
+            //background: darkcyan;
+            letter-spacing:1px ;
+
+
+
+
+           
+        }
+        .parrafo{
+            width: 300px;
+            margin: auto;
+            font-size: 13px;
+            //background: darkgoldenrod;
+            line-height: 20px;
+
+
+
+           
+        }
+    }
+    
+    
+    
+    .contCua1{
+        width: 100%;
+        .titlesss{
+            margin-left: 20px;   
+            margin-right: 20px;
+        }
+        .parr{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+    }
+    
+    
+    .contCua2{
+        width: 100%;
+        
+        .titlesss{
+            margin-left: 20px;   
+            margin-right: 20px;
+       }
+       .parr{
+            margin-left: 20px;
+            margin-right: 20px;
+       }
+       
+    }
+    
+    
+    .contCua3{
+        width: 100%;
+        
+        .titlesss{
+            margin-left: 20px;   
+            margin-right: 20px;
+       }
+       .parr{
+            margin-left: 20px;
+            margin-right: 20px;
+       }    
+    }
+    
+    
+    .contCua4{
+        width: 100%;
+        
+        .titlesss{
+            margin-left: 20px;   
+            margin-right: 20px;
+       }
+       .parr{
+            margin-left: 20px;
+            margin-right: 20px;
+       }
+    }
+}
